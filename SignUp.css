@@ -1,4 +1,4 @@
-@charset "utf-8"; 
+@charset "utf-8";
 
 body{
     background-image: url('1.jpg');
@@ -16,7 +16,8 @@ body{
     left:75%;
     font-size: 20px;
     padding: 20px 45px;
-    
+      opacity: 0.5;
+      border-radius: 15px 50px;
 }
 #formm input::placeholder{
     font-family: fontAwesome;
@@ -61,6 +62,6 @@ h1
 }
 @media only screen (max-width : 768px){
 	.main{
-		width : 100%;	
+		width : 100%;
 	}
 }
